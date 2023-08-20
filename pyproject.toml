@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "convex"
+version = "0.1.0"
+description = "Export playlists between your favorite services"
+authors = ["Miguel Martín <miguel.martinr11@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
